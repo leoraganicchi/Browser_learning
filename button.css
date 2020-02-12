@@ -16,13 +16,13 @@ body {
 .container {
   box-shadow: 0 0 50px rgba(43, 43, 43, 0.39);
 }
-
+/*header bar*/
 .container header {
   background: -webkit-linear-gradient(#eae6ea, #d2d0d2);
   border-radius: 4px 4px 0 0;
   padding: 0.3rem 0.3rem;
 }
-
+/*3 dots*/
 .container header::after {
   content: "";
   display: inline-block;
@@ -35,13 +35,13 @@ body {
   position: relative;
   left: 1.5rem;
 }
-
+/*footer bar*/
 .container footer {
   background: -webkit-linear-gradient(#d2d0d2, #fffeff);
   border-radius: 0 0 3px 3px;
   padding: 0.5rem 0;
 }
-
+/*page*/
 .container main {
   background: url(https://images.unsplash.com/photo-1486728297118-82a07bc48a28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=2001&q=80) no-repeat left top;
   background-size: 120%;
